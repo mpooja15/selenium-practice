@@ -22,7 +22,7 @@ public class ButtonHandling {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\\\\\\\driver-chrome\\\\\\\\chromedriver-win32\\\\\\\\chromedriver-win32\\\\\\\\chromedriver.exe");
+				"D:\\driver\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://stg-testcloud.quinnox.info/");
 		// log.severe("qyrus app started");
@@ -141,6 +141,7 @@ public class ButtonHandling {
 		//FileHandler.copy(image3, dest3);
 
 		System.out.println("image saved:" + dest3.getAbsolutePath());
+		
 
 		obj.quit();
 
