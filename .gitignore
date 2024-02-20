@@ -22,3 +22,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/target/
+*.prefs
+*.lst
+*.jar
+.classpath
+.project
+*.jar
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+*.class
+*.class
+target/classes/com/test/demo/ButtonHandling.class
+target/classes/com/test/demo/InputHandling.class

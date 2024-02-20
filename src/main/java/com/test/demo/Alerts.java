@@ -62,6 +62,8 @@ public class Alerts {
 		String verify=driver.findElement(By.id("myName")).getText();
 		System.out.println("Verifying the name gave on prompt:->"+verify);
 		
+		driver.getCurrentUrl();
+		
 		driver.quit();
 		
 		
