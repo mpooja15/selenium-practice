@@ -10,7 +10,7 @@ public class InputHandling2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\\\driver-chrome\\\\chromedriver-win32\\\\chromedriver-win32\\\\chromedriver.exe");
+				"D:\\chromedriver-win64\\chromedriver-win64-125\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		openLetCode(driver);
 		driver.quit();

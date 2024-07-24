@@ -12,7 +12,7 @@ public class Alerts {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\driver\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+				"D:\\chromedriver-win64\\chromedriver-win64-125\\chromedriver-win64\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://letcode.in/alert");
 		
