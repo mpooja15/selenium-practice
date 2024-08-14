@@ -17,6 +17,8 @@ public class HorizontalScrollExample {
 
 		// Get JavascriptExecutor instance
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		
 
 		// Execute script to scroll horizontally by a certain amount (pixels)
 		js.executeScript("window.scrollBy(500,0)"); // Replace 2000 with desired pixel value
